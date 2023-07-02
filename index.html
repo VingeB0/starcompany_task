@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Star company</title>
+
+    <meta name="theme-color" content="#000">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta name="msapplication-navbutton-color" content="#000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Star company">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="star company, web site, designs, advanced rockets, spacecrafts">
+    <meta name="author" content="">
+    <meta name="description" content="star company long description">
+
+    <link rel="shortcut icon" href="public/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="public/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="public/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<main class="main">
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <a href="./">
+                    <img src="public/img/logo.png" alt="star company logo">
+                </a>
+            </div>
+            <form action="/" method="POST" class="log-in">
+                <div class="log-in__row">
+                    <div class="log-in__input input">
+                        <label for="log-in-email">email</label>
+                        <input required placeholder="Email" id="log-in-email" name="email" type="email">
+                    </div>
+                    <div class="log-in__input input">
+                        <label for="log-in-password">password</label>
+                        <input required placeholder="Password" id="log-in-password" name="password" type="password">
+                    </div>
+                    <button class="primary-button" type="submit">Log in</button>
+                </div>
+                <div class="log-in__row">
+                    <div class="log-in__input">
+                        <p class="error-msg">
+                            Please enter a valid email address
+                        </p>
+                    </div>
+                    <div class="log-in__input log-in__link">
+                        <a class="link" href="./">Forgot your password?</a>
+                    </div>
+                </div>
+            </form>
+        </header>
+    </div>
+    <div class="container hero-container">
+        <section class="hero">
+            <h1 class="title">
+                <span class="title__top">StarCompany DESIGNS, MANUFACTURES AND</span>
+                <span class="title__bot">Launches Advanced Rockets and Spacecrafts</span>
+            </h1>
+            <div class="step-form">
+                <div class="step-form__main">
+                    <div class="step-form__control step-form__control--prev">
+                        <button disabled type="button" class="step-form__prev step-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17"><path fill-rule="evenodd" fill="#FFF" d="M10 15.6 8.6 17l-7.1-7L0 8.6v-.1L1.4 7h.1l7-7L10 1.4 3 8.5l7 7Z"/></svg>
+                            Prev step
+                        </button>
+                    </div>
+                    <div class="step-form__steps">
+                        <div class="step-item step-form-1">
+                            <div class="step-item__wrap">
+                                <label class="step-item__label" for="role">Who are you?</label>
+                                <div class="step-item__select">
+                                    <select class="step-item__el" name="role" id="role">
+                                        <option value=""></option>
+                                        <option value="Engineer">Engineer</option>
+                                        <option value="Business Development Executive">Business Development Executive</option>
+                                        <option value="Office Manager">Office Manager</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="step-item__helper-box helper-box"></div>
+                        </div>
+                        <div class="hidden step-item step-form-2">
+                            <div class="step-item__wrap">
+                                <label class="step-item__label" for="age">What is your age ?</label>
+                                <div class="step-item__select">
+                                    <select class="step-item__el" name="age" id="age">
+                                        <option value=""></option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="step-item__helper-box"></div>
+                        </div>
+                        <div class="hidden step-item step-form-3">
+                            <div class="step-item__wrap">
+                                <label class="step-item__label" for="location">I am from</label>
+                                <input class="step-item__el" placeholder="input your location" type="text" name="location" id="location">
+                            </div>
+                            <div class="step-item__helper-box">
+                                <div class="help-msg">
+                                    <p>E.g.: New Roads or 70760</p>
+                                    <p>We don’t use postal addresses to contact members directly!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden step-item step-form-4">
+                            <div class="step-item__wrap">
+                                <label class="step-item__label" for="email">Your email address</label>
+                                <input class="step-item__el" placeholder="input your email" type="email" name="email" id="email">
+                            </div>
+                            <div class="step-item__helper-box"></div>
+                        </div>
+                        <div class="hidden step-item step-form-5">
+                            <div class="step-item__wrap">
+                                <label class="step-item__label" for="password">Create your password</label>
+                                <input class="step-item__el" placeholder="********" type="password" name="password" id="password">
+                            </div>
+                            <div class="step-item__helper-box"></div>
+                        </div>
+                    </div>
+                    <div class="step-form__control step-form__control--next">
+                        <button type="button" class="step-form__next step-button">
+                            Next step
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17"><path fill-rule="evenodd" fill="#FFF" d="M10 8.6 8.6 10h-.1l-7 7L0 15.6l7-7.1-7-7L1.4 0l7.1 7L10 8.4v.1Z"/></svg>
+                        </button>
+                        <button type="button" class="step-form__start secondary-button hidden">
+                            Start now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill-rule="evenodd" fill="#FFF" d="m17.5 1.6-10 9.9L6.3 10 .5 4.4 2 2.1l5.7 6.6L16 .2l1.4 1.4Z"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="step-form__bottom">
+                    <ul class="dots">
+                        <li class="dots__item active"></li>
+                        <li class="dots__item"></li>
+                        <li class="dots__item"></li>
+                        <li class="dots__item"></li>
+                        <li class="dots__item"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+<script src="js/index.js"></script>
+</body>
+</html>
