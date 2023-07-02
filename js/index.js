@@ -113,7 +113,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     const { getControls, stepState, showSpecificStep, showSpecificDot, getFormItem, config } = new StepForm();
 
-    const URL = 'http://www.mocky.io/v2/5dfcef48310000ee0ed2c281';
+    const URL = 'https://www.mocky.io/v2/5dfcef48310000ee0ed2c281';
     const fetchErrors = () => fetch(URL)
 
     const nextAndStartButtons = [getControls().start.el, getControls().next.el];
